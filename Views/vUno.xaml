@@ -3,6 +3,14 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="jjitalaaRepaso.Views.vUno"
              Title="vUno">
+
+    <ContentPage.Resources>
+        <Style x:Key="EstiloLabel" TargetType="Label">
+            <Setter Property="TextColor" Value="Blue"/>
+            <Setter Property="BackgroundColor" Value="Beige"/>
+        </Style>
+    </ContentPage.Resources>
+    
     <VerticalStackLayout
         Padding="20"
         Spacing="20">
@@ -27,6 +35,7 @@
 
             <Label Text="USUARIO: "
                    Grid.Row="0"
+                   Style="{StaticResource EstiloLabel}"
                    Grid.Column="0"/>
 
             <Entry x:Name="txtUsuario"
@@ -36,6 +45,7 @@
 
             <Label Text="CONTRASEÑA: "
                     Grid.Row="1"
+                   Style="{StaticResource EstiloLabel}"
                     Grid.Column="0"/>
 
             <Entry x:Name="txtContrasena"

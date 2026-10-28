@@ -5,7 +5,8 @@
              Title="vTres">
     <VerticalStackLayout>
         <Label 
-            Text="Welcome to .NET MAUI!"
+            Text="REPORTE"
+            Style="{StaticResource LabelGlobal}"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
@@ -23,6 +24,7 @@
             </Grid.ColumnDefinitions>
 
             <Label Text="Desarrollado"
+                   Style="{StaticResource LabelGlobal}"
                    Grid.Row="0"
                    Grid.Column="0"/>
 
@@ -32,6 +34,7 @@
                    Grid.Column="1"/>
 
             <Label Text="Asignatura"
+                   Style="{StaticResource LabelGlobal}"
                     Grid.Row="1"
                     Grid.Column="0"/>
 
@@ -41,6 +44,7 @@
                     Grid.Column="1"/>
 
             <Label Text="Nivel"
+                   Style="{StaticResource LabelGlobal}"
                     Grid.Row="2"
                     Grid.Column="0"/>
 
@@ -50,6 +54,7 @@
                     Grid.Column="1"/>
 
             <Label Text="Nota Final P1"
+                   Style="{StaticResource LabelGlobal}"
                     Grid.Row="3"
                     Grid.Column="0"/>
 
